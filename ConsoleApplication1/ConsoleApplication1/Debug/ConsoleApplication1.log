@@ -1,0 +1,18 @@
+﻿빌드 시작: 2019-03-14 오전 10:59:05
+     1>2 노드의 "D:\MyOpenCV\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" 프로젝트(Build 대상)입니다.
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\MyOpenCV\ConsoleApplication1\Debug\ConsoleApplication1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\MyOpenCV\ConsoleApplication1\Debug\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\MyOpenCV\ConsoleApplication1\Debug\ConsoleApplication1.lib" /MACHINE:X86 Debug\main.obj
+     1>main.obj : error LNK2019: "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPAX@Z) 외부 기호(참조 위치: "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ) 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: "public: __thiscall cv::_InputArray::_InputArray(class cv::Mat const &)" (??0_InputArray@cv@@QAE@ABVMat@1@@Z) 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: "public: void __thiscall cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QAEXXZ) 외부 기호(참조 위치: "public: void __thiscall cv::Mat::release(void)" (?release@Mat@cv@@QAEXXZ) 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: "public: void __thiscall cv::Mat::copySize(class cv::Mat const &)" (?copySize@Mat@cv@@QAEXABV12@@Z) 외부 기호(참조 위치: "public: class cv::Mat & __thiscall cv::Mat::operator=(class cv::Mat const &)" (??4Mat@cv@@QAEAAV01@ABV01@@Z) 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: "int __cdecl cv::_interlockedExchangeAdd(int *,int)" (?_interlockedExchangeAdd@cv@@YAHPAHH@Z) 외부 기호(참조 위치: "public: class cv::Mat & __thiscall cv::Mat::operator=(class cv::Mat const &)" (??4Mat@cv@@QAEAAV01@ABV01@@Z) 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: "int __cdecl cv::waitKey(int)" (?waitKey@cv@@YAHH@Z) 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: "void __cdecl cv::imshow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::_InputArray const &)" (?imshow@cv@@YAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV_InputArray@1@@Z) 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: "class cv::Mat __cdecl cv::imread(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?imread@cv@@YA?AVMat@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z) 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+     1>D:\MyOpenCV\ConsoleApplication1\Debug\ConsoleApplication1.exe : fatal error LNK1120: 8개의 확인할 수 없는 외부 참조입니다.
+     1>"D:\MyOpenCV\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:00.20
